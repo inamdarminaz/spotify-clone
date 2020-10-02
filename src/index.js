@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
-import {StateProvider} from './StateProvider';
-import reducer, {initialState} from './reducer';
+import * as serviceWorker from './Spotify/serviceWorker';
+import {StateProvider} from './Spotify/StateProvider';
+import reducer, {initialState} from './Spotify/reducer';
 
 ReactDOM.render(
   <React.StrictMode>
